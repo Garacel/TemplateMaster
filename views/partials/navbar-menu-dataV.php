@@ -8,7 +8,7 @@
                             </a>
                             <ul>
                                 <li class="">
-                                    <a href="apexareachart.php">
+                                    <a href="views/apexareachart.php">
                                         <span class="nav-link-text" data-i18n="">Area Charts</span>
                                     </a>
                                 </li>

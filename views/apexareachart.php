@@ -1610,7 +1610,7 @@
                             <div class="info-container"> Explore these Apex Area Chart samples to accelerate your app’s data visualization development. </div>
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <?php include __DIR__ . '/apexareachart-Basic.php'; ?>
+                                    <?php include __DIR__ . 'views/apexareachart/apexareachart-Basic.php'; ?>
                                     <!--div id="panel-1" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Basico <span class="fw-light"><i>Area</i></span>
@@ -1640,7 +1640,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                    <?php include __DIR__ . '/apexareachart-Datetime.php'; ?>
+                                    <?php include __DIR__ . 'views/apexareachart/apexareachart-Datetime.php'; ?>
                                     <!--div id="panel-3" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Datetime X-Axis <span class="fw-light"><i>Area</i></span>
@@ -1677,7 +1677,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                     <?php include __DIR__ . '/apexareachart-GithubStyle.php'; ?>
+                                     <?php include __DIR__ . 'views/apexareachart/apexareachart-GithubStyle.php'; ?>
                                     <!--div id="panel-5" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Github Style <span class="fw-light"><i>Area</i></span>
@@ -1708,7 +1708,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                    <?php include __DIR__ . '/apexareachart-Irregular.php'; ?>
+                                    <?php include __DIR__ . 'views/apexareachart/apexareachart-Irregular.php'; ?>
                                     <!--div id="panel-7" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Irregular Timeseries <span class="fw-light"><i>Area</i></span>
@@ -1740,7 +1740,7 @@
                                     </div-->
                                 </div>
                                 <div class="col-sm-6">
-                                     <?php include __DIR__ . '/apexareachart-Spline.php'; ?>
+                                     <?php include __DIR__ . 'views/apexareachart/apexareachart-Spline.php'; ?>
                                     <!--div id="panel-2" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Spline <span class="fw-light"><i>Area</i></span>
@@ -1770,7 +1770,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                     <?php include __DIR__ . '/apexareachart-Negative.php'; ?>
+                                     <?php include __DIR__ . 'views/apexareachart/apexareachart-Negative.php'; ?>
                                     <!--div id="panel-4" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Negative <span class="fw-light"><i>Area</i></span>
@@ -1800,7 +1800,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                    <?php include __DIR__ . '/apexareachart-Stacked.php'; ?>
+                                    <?php include __DIR__ . 'views/apexareachart/apexareachart-Stacked.php'; ?>
                                     <!--div id="panel-6" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Stacked <span class="fw-light"><i>Area</i></span>
@@ -1830,7 +1830,7 @@
                                             </div>
                                         </div>
                                     </div-->
-                                    <?php include __DIR__ . '/apexareachart-MissingNull.php'; ?>
+                                    <?php include __DIR__ . 'views/apexareachart/apexareachart-MissingNull.php'; ?>
                                     <!--div id="panel-8" class="panel panel-icon">
                                         <div class="panel-hdr">
                                             <h2> Missing/Null Values <span class="fw-light"><i>Area</i></span>

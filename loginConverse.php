@@ -41,8 +41,6 @@
                     <div id="regular-login" class="login-card p-4 p-md-5 bg-dark bg-opacity-50 translucent-dark rounded-4">
                         <h2 class="text-center mb-4">Login</h2>
                         <p class="text-center text-white opacity-50 mb-4">Please enter your credentials below</p>
-                    <!-- /orquestadorLiit/handleLogin.php-->
-                    <!-- /views/htmlBase.php-->
                         <form method="POST" action="/orquestadorLiit/handleLogin.php">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>

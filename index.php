@@ -1,7 +1,7 @@
 <?php
 
-//require __DIR__ . '/vendor/autoload.php';
-//require_once __DIR__ . '/config/config.php';
+require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/config/config.php';
 
 session_start();
 
@@ -9,7 +9,7 @@ session_start();
 if (
     empty($_SESSION['user_context']) ||
     !($_SESSION['user_context'] instanceof \App\Model\UserContext)
-) { 
+) {
     require __DIR__ . '/loginConverse.php';
     exit;
 }

@@ -3,17 +3,17 @@
  */
 @font-face {
   font-family: "smartadmin-icons";
-  src: url("/converseLarry/public/assets/webfonts/smartadmin-icons.eot");
-  src: url("/converseLarry/public/assets/webfonts/smartadmin-icons.eot?#iefix") format("embedded-opentype"),
-       url("/converseLarry/public/assets/webfonts/smartadmin-icons.woff2") format("woff2"),
-       url("/converseLarry/public/assets/webfonts/smartadmin-icons.woff") format("woff"),
-       url("/converseLarry/public/assets/webfonts/smartadmin-icons.ttf") format("truetype"),
-       url("/converseLarry/public/assets/webfonts/smartadmin-icons.svg#nextgen-icons") format("svg");
+  src: url("webfonts/smartadmin-icons.eot");
+  src: url("webfonts/smartadmin-icons.eot?#iefix") format("embedded-opentype"),
+       url("../webfonts/smartadmin-icons.woff2") format("woff2"),
+       url("../webfonts/smartadmin-icons.woff") format("woff"),
+       url("../webfonts/smartadmin-icons.ttf") format("truetype"),
+       url("webfonts/smartadmin-icons.svg#nextgen-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
+/*Use the following CSS code if you want to have a class per icon */
 .sa,
 [data-icon]:before,
 [class^=sa-base-],

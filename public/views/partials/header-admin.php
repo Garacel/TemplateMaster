@@ -4,7 +4,7 @@
             <!-- App logo -->
             <div class="app-logo flex-shrink-0" data-prefix="v5.1.0" data-action="playsound" data-soundpath="/converseLarry/public/assets/media/sound/" data-soundfile="sawhisp.mp3">
                 <svg class="custom-logo">
-                    <use href="/converseLarry/public/assets/img/app-logo.svg#custom-logo"></use>
+                    <!--use href="/converseLarry/public/assets/img/app-logo.svg#custom-logo"></use-->
                 </svg>
                 <div class="logo-backdrop">
                     <div class="blobs">
@@ -40,11 +40,11 @@
             <!-- Mobile menu -->
             <div class="mobile-menu-icon me-2 d-flex d-sm-flex d-md-flex d-lg-none flex-shrink-0" data-action="toggle-swap" data-toggleclass="app-mobile-menu-open" aria-label="Toggle Mobile Menu">
                 <svg class="sa-icon">
-                    <use href="/converseLarry/public/assets/img/sprite.svg#menu"></use>
+                    <!--use href="/converseLarry/public/assets/img/sprite.svg#menu"></use-->
                 </svg>
             </div>
             <!-- Collapse icon -->
-             <?php include __DIR__ . '/header-search.php' ?> 
+             <?php include 'header-search.php' ?> 
             <!--button type="button" class="collapse-icon me-3 d-none d-lg-inline-flex d-xl-inline-flex d-xxl-inline-flex" data-action="toggle" data-class="set-nav-minified" aria-label="Toggle Navigation Size">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 8">
                     <polygon fill="#878787" points="4.5,1 3.8,0.2 0,4 3.8,7.8 4.5,7 1.5,4" />
@@ -55,7 +55,7 @@
             </form-->
         </div>
         <!-- Settings -->
-        <?php include __DIR__ . '/header-settings.php' ?> 
+        <?php include 'header-settings.php' ?> 
         <!--button type="button" class="btn btn-system hidden-mobile" data-action="toggle-swap" data-toggleclass="open" data-target="aside.js-drawer-settings" aria-label="Open Settings">
             <svg class="sa-icon sa-icon-2x">
                 <use href="/converseLarry/public/assets/img/sprite.svg#settings"></use>
@@ -63,7 +63,7 @@
         </button-->
         
         <!-- Theme modes -->
-        <?php include __DIR__ . '/header-modes.php' ?> 
+        <?php include 'header-modes.php' ?> 
 
         <!--button type="button" class="btn btn-system" data-action="toggle-theme" aria-label="Toggle Dark Mode" aria-pressed="false">
             <svg class="sa-icon sa-icon-2x">
@@ -73,7 +73,7 @@
 
 
         <!-- Sidebar -->
-        <?php include __DIR__ . '/header-sidebar.php' ?> 
+        <?php include 'header-sidebar.php' ?> 
         <!--button type="button" class="btn btn-system d-none d-sm-block d-sm-none d-md-none d-lg-block" data-action="toggle-swap" data-toggleclass="open" data-target="aside.js-app-drawer" aria-label="Open Sidebar">
             <svg class="sa-icon sa-icon-2x">
                 <use href="/converseLarry/public/assets/img/sprite.svg#monitor"></use>
@@ -81,7 +81,7 @@
         </button-->
 
         <!-- Notifications -->
-        <?php include __DIR__ . '/header-notifications.php' ?> 
+        <?php include 'header-notifications.php' ?> 
 
         <!--button type="button" class="btn btn-system dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Open Notifications">
             <span class="badge badge-icon pos-top pos-end">5</span>
@@ -91,7 +91,7 @@
         </button-->
 
         <!-- Notifications dropdown -->
-        <?php include __DIR__ . '/header-notificationsDrop.php' ?> 
+        <?php include 'header-notificationsDrop.php' ?> 
 
         <!--div class="dropdown-menu dropdown-menu-animated dropdown-xl dropdown-menu-end p-0">
             <div class="notification-header rounded-top mb-2">
@@ -448,12 +448,12 @@
         </div-->
 
         <!-- Profile -->
-         <?php include __DIR__ . '/header-perfil.php' ?> 
+         <?php include 'header-perfil.php' ?> 
         <!--button type="button" data-bs-toggle="dropdown" title="drlantern@gotbootstrap.com" class="btn-system bg-transparent d-flex flex-shrink-0 align-items-center justify-content-center" aria-label="Open Profile Dropdown">
             <img src="/converseLarry/public/assets/img/avatar-admin.png" class="profile-image profile-image-md rounded-circle" alt="Sunny A.">
         </button-->
         <!-- Profile dropdown -->
-        <?php include __DIR__ . '/header-perfileDrop.php' ?> 
+        <?php include 'header-perfileDrop.php' ?> 
         <!--div class="dropdown-menu dropdown-menu-animated">
             <div class="notification-header rounded-top mb-2">
                 <div class="d-flex flex-row align-items-center mt-1 mb-1 color-white">

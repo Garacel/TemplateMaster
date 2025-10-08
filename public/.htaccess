@@ -1,2 +1,2 @@
-# Decirle a Apache que el index por defecto es index.html
-DirectoryIndex index.html
+# Decirle a Apache que el index por defecto es index.php
+DirectoryIndex index.php

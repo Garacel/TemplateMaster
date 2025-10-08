@@ -295,17 +295,17 @@ $username = $context instanceof UserContext ? $context->getName() : 'Invitado';
 
 
     <!-- Core scripts -->
-    <script src="/converseLarry/public/assets/scripts/smartApp.js"></script>
-    <script src="/converseLarry/public/assets/scripts/smartNavigation.js"></script>
-    <script src="/converseLarry/public/assets/scripts/smartFilter.js"></script>
-    <script src="/converseLarry/public/assets/scripts/thirdparty/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/converse.local/public/assets/scripts/smartApp.js"></script>
+    <script src="/converse.local/public/assets/scripts/smartNavigation.js"></script>
+    <script src="/converse.local/public/assets/scripts/smartFilter.js"></script>
+    <script src="/converse.local/public/assets/scripts/thirdparty/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- Dependable scripts -->
-    <script src="/converseLarry/public/assets/scripts/thirdparty/sortable/sortable.js"></script>
+    <script src="/converse.local/public/assets/scripts/thirdparty/sortable/sortable.js"></script>
 
     <!-- Optional scripts -->
-    <script src="/converseLarry/public/assets/scripts/smartSlimscroll.js"></script>
-    <script src="/converseLarry/public/assets/scripts/thirdparty/wavejs/waves.js"></script>
+    <script src="/converse.local/public/assets/scripts/smartSlimscroll.js"></script>
+    <script src="/converse.local/public/assets/scripts/thirdparty/wavejs/waves.js"></script>
     <script>
         function mobileOperator() {
             return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
